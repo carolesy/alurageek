@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles/reset.css">
+	<link rel="stylesheet" href="styles/style.css">
+	<title>AluraGeek</title>
+</head>
+<body>
+	 <header class="header">
+        <img src="./assets/logo white.png" alt="logo alurageek" />
+    </header>
+
+    <main class="container-principal">
+        <section>
+            <h1>Meus Produtos:</h1>
+            <div data-product class="container-produtos">
+                <div class="produto card">
+                    <img src="assets/stormtrooper.png" alt="Produto 1">
+                    <div class="card-container--info">
+                        <h3>Stormtrooper</h3>
+                        <p class="card-container--value">$60.00</p>
+                    </div>
+                </div>
+                <div class="produto card">
+                    <img src="assets/game-boy.png" alt="Produto 2">
+                    <div class="card-container--info">
+                        <h3>Game Boy Classic</h3>
+                        <p class="card-container--value">$60.00</p>
+                    </div>
+                </div>
+                <div class="produto card">
+                    <img src="assets/stormtrooper.png" alt="Produto 1">
+                    <div class="card-container--info">
+                        <h3>Stormtrooper</h3>
+                        <p class="card-container--value">$60.00</p>
+                    </div>
+                </div>
+                <div class="produto card">
+                    <img src="assets/game-boy.png" alt="Produto 2">
+                    <div class="card-container--info">
+                        <h3>Game Boy Classic</h3>
+                        <p class="card-container--value">$60.00</p>
+                    </div>
+                </div>
+                <div class="produto card">
+                    <img src="assets/stormtrooper.png" alt="Produto 1">
+                    <div class="card-container--info">
+                        <h3>Stormtrooper</h3>
+                        <p class="card-container--value">$60.00</p>
+                    </div>
+                </div>
+                <div class="produto card">
+                    <img src="assets/game-boy.png" alt="Produto 2">
+                    <div class="card-container--info">
+                        <h3>Game Boy Classic</h3>
+                        <p class="card-container--value">$60.00</p>
+                    </div>
+            </div>
+        </section>
+
+        <section>
+            <h1>Adicionar Produto:</h1>
+
+            <form class="container-formulario" data-form>
+                <input data-name placeholder="nome..." type="text">
+                <input data-price placeholder="preço..." type="text">
+                <input data-image placeholder="imagem..." type="text">
+                <span data-mensagem class="mensagemErro"></span>
+                <div class="container-botoes">
+                    <button type="submit" class="botao-enviar" id="botao">Enviar...</button>
+                    <button type="reset" class="botao-limpar" id="botao">Limpar...</button>
+                </div>
+            </form>
+            
+        </section>
+    </main>
+
+    <footer class="container-rodape">
+        <div>
+            <img src="./assets/logo white.png" />
+        </div>
+        <p> Desenvolvido por Caroline Andrade</p>
+        <small>Alura Latam 2024</small>
+    </footer>
+	<script type="module" src="js/controllers/main.js"></script>
+</body>
+</html>
